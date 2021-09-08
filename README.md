@@ -2,6 +2,8 @@
 
 > A CLI to convert Bitcoin to any currency provided. (default currency: USD, amount: 1)
 
+![Example CLI running](img/btc-converter.gif)
+
 ### Installing
 
 ```
