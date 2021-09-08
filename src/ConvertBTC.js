@@ -18,7 +18,7 @@ function convertBTC(currency = 'USD', amount = 1) {
 
     try {
       apiResponse = JSON.parse(body);
-    } catch(parseError) {
+    } catch (parseError) {
       console.log(chalk.red('Something went wrong in the API. Try in a few minutes.'));
       return parseError;
     }
