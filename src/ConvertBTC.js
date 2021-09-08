@@ -8,12 +8,12 @@ const spinner = ora({
 });
 
 function convertBTC(currency = 'USD', amount = 1) {
-  const public_key = 'YTUyYjkzNzZkZjA3NDFmMWE2ZTQwMTg1M2NhMTBmNGM';
+  const publicKey = 'YTUyYjkzNzZkZjA3NDFmMWE2ZTQwMTg1M2NhMTBmNGM';
   const options = {
     url: `https://apiv2.bitcoinaverage.com/convert/global?from=BTC&to=${currency}&amount=${amount}`,
     headers: {
-      'x-ba-key': public_key
-    }
+      'x-ba-key': publicKey,
+    },
   };
 
   spinner.start();
