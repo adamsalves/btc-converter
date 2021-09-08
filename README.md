@@ -13,9 +13,9 @@ $ npm install -g btc-converter-tc
 ### How to use
 
 ```sh
-btc-converter-tc --help
+btc-converter --help
 
-  Usage: btc-converter-tc [options]
+  Usage: btc-converter [options]
 
   Convert Bitcoint to any currency defined
 
