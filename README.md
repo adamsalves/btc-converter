@@ -1,6 +1,6 @@
 # Bitcoin Converter CLI
 
-> A CLI to convert Bitcoin to any currency provided.
+> A CLI to convert Bitcoin to any currency provided. (default currency: USD, amount: 1)
 
 ### Installing
 
