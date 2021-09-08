@@ -2,20 +2,18 @@
 
 > A CLI to convert Bitcoin to any currency provided.
 
-![Example CLI running](img/example.gif)
-
 ### Installing
 
 ```
-$ npm install -g btc-converter
+$ npm install -g btc-converter-tc
 ```
 
 ### How to use
 
 ```sh
-btc-converter --help
+btc-converter-tc --help
 
-  Usage: btc-converter [options]
+  Usage: btc-converter-tc [options]
 
   Convert Bitcoint to any currency defined
 
