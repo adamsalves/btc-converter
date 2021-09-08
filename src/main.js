@@ -5,5 +5,5 @@ const pkg = require('../package.json');
 
 program
   .version(pkg.version)
-  .parse(process.argv)
+  .parse(process.argv);
 
